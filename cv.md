@@ -14,6 +14,7 @@ I work in an industry that will soon cease to exist. So I want to learn programm
 
 *  HTML
 *  CSS
+*  JS (Basic)
 
 ## Code Example
 
