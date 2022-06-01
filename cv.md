@@ -30,4 +30,5 @@ function square(number) {
 
 ## Language
 
-English - A1
+*  English - A1
+*  Russian - Native
