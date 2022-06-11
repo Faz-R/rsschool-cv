@@ -4,9 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <p class="text">Hello world!</p>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+
+        <div class="main-header">
+          <div class="column left-side left-side-header">
+            <figure class="header-avatar">
+              <div class="header-photo-frame">
+                <img class="header-photo" src="assets/img/photo.jpg" alt="header photo" width="1405" height="2085">
+              </div>
+            </figure>
+          </div>
+
+          <div class="column right-side right-side-header">
+            <section class="section-profile" id="profile">
+              <h1 class="profile-title">Fazlyev <span>Rifat</span></h1>
+              <span class="profile-subtitle">Front-End developer</span>
+            </section>
+          </div>    
+        </div>
+
+        <div class="column-container">
+
+          <div class="column left-side left-side-main">
+
+            <section class="section" id="contacts">
+              <h2 class="section-title">Contacts</h2>
+              <ul class="list contacts-list">
+                <li class="contact-icon github-contact"><a class="contact-link" href="https://github.com/Faz-R/" target="_blank">github.com/Faz-R</a></li>
+                <li class="contact-icon discord-contact"><a href="https://discordapp.com/users/FazaR#5886/" target="_blank">FazaR#5886</a></li>
+                <li class="contact-icon mail-contact"><a href="mailto:fazar92@gmail.com">Fazar92@gmail.com</a></li>
+                <li class="contact-icon location-contact">St. Petersburg, Russia</li>
+              </ul>
+            </section>
+
+            <section class="section" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="list skills-list">
+                <li class="html-skill">HTML5</li>
+                <li class="css-skill">CSS3</li>
+                <li class="js-skill">JavaScript Basic</li>
+                <li class="git-skill">Git</li>
+              </ul>
+            </section>
+          
+            <section class="section" id="languages">
+              <h2 class="section-title">Languages</h2>
+              <ul class="list list-mark">
+                <li>English - A1</li>
+                <li>Russian - Native</li>
+              </ul>
+            </section>
+
+          </div>
+
+          <div class="column right-side right-side-main">
+
+            <section class="section" id="about-me">
+              <h2 class="section-title">About me</h2>
+                <p class="about-me-text">
+                  I am a Chief Editor at online edition of the professionals of cinemabusiness. 
+                  Together with a web developer, we updated our resource and added additional functionality to it.
+                  This experience interested me, so I decided to study in this direction.
+                </p>
+            </section>
+          
+            <section class="section" id="education">
+              <h2 class="section-title">Education</h2>
+              <ul class="list list-mark">
+                <li>Creation and promotion of websites. Training center "Status"</li>
+                <li>Academy</li>
+                <li>RS School - Front-end/React Developer</li>
+              </ul>
+            </section>
+          
+            <section class="section" id="code">
+              <h2 class="section-title">Code</h2>
+              <div class="example-code">
+                <code>
+                function square(number) {<br>
+                return number * number; <br>
+                }
+                </code>
+              </div>
+              
+            </section>
+
+            <section class="section" id="projects">
+              <h2 class="section-title">Projects</h2>
+              <ul class="project-list">
+                <li class="project-item">
+                  <a href="#" target="_blank">
+                    <img class="project-item-image" src="assets/img/first-project.jpg" alt="CV project" width="1086" height="616">
+                    <span class="project-item-name">CV</span>
+                  </a>
+                </li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+    </main>
+      
+    <footer class="footer">
+      <div class="container footer-container">
+        <a class="footer-github-link" href="https://github.com/Faz-R/" target="_blank">GitHub</a>
+        <span class="footer-age">2022</span>
+        <a href="https://rs.school/js/" target="_blank"><img class="footer-logo" src="assets/svg/rs_school.svg" alt="RS School"></a>
+
+      </div>
+    </footer>
 </body>
 </html>
