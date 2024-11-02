@@ -14,6 +14,9 @@ I work in an industry that will soon cease to exist. So I want to learn programm
 
 - HTML
 - CSS
+- JS
+- TS
+- React
 
 ## Code Example
 
@@ -26,6 +29,7 @@ function square(number) {
 ## Educations
 
 <a href="https://htmlacademy.ru/">HTML Academy</a>
+<a href="https://rs.school/">RS School</a>
 
 ## Language
 
